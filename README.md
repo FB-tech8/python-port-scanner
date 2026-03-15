@@ -1,46 +1,58 @@
-# Python Port Scanner
+# 🌐 Python Port Scanner
 
-This project is a simple TCP port scanner developed using Python.  
-It scans ports on a target machine to identify open ports that are accepting connections.
+A simple Python tool that scans a target system to identify open ports.
 
-## Features
-- Scans TCP ports from 1 to 1024
-- Detects open ports on the target host
-- Demonstrates basic network security concepts
-- Built using Python's socket library
+Port scanning is a common technique used in **network security analysis**.
 
-## Technologies Used
-- Python
-- Socket Programming
+---
 
-## How It Works
-The scanner attempts to establish a TCP connection to each port in the specified range.  
-If the connection succeeds, the port is considered open.
+## 🚀 Features
 
-## Example Output
+* Scans common ports on a target host
+* Identifies open ports
+* Demonstrates TCP connection attempts
+* Helps understand exposed network services
 
-Scanning target: 127.0.0.1  
-Scanning ports 1-1024...
+---
 
-Port 135 is open  
-Port 445 is open  
+## 🛠 Technologies Used
 
-Scan completed.
+* Python
+* Socket library
+* TCP networking
 
-## Files in This Project
-- port_scanner.py → Python script for scanning ports
-- scan_result.png → Screenshot showing the scanner running
-- README.md → Project documentation
+---
 
-## Purpose
-This project demonstrates basic cybersecurity concepts and network scanning techniques used to identify open ports on a host system.
+## ▶ Usage
 
-## How to Run
-
-1. Install Python
-2. Run the script
+Run the script:
 
 python port_scanner.py
 
-3. Enter the target IP address when prompted
+Enter the target IP address when prompted.
 
+---
+
+## Example Output
+
+Target: 192.168.1.1
+
+Open Ports:
+22 (SSH)
+80 (HTTP)
+443 (HTTPS)
+
+---
+
+## 📚 Concepts Learned
+
+* TCP/IP networking
+* Port scanning techniques
+* Socket programming
+* Security implications of open ports
+
+---
+
+## ⚠ Disclaimer
+
+This project is intended for **educational purposes only**.
