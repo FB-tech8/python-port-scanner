@@ -34,3 +34,13 @@ Scan completed.
 
 ## Purpose
 This project demonstrates basic cybersecurity concepts and network scanning techniques used to identify open ports on a host system.
+
+## How to Run
+
+1. Install Python
+2. Run the script
+
+python port_scanner.py
+
+3. Enter the target IP address when prompted
+
